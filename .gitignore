@@ -1,0 +1,39 @@
+# Flutter
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+*.lock
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/app/google-services.json
+
+# iOS
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase Config
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Environment
+.env
+
+# Keys & Secrets
+*.keystore
+*.jks
+*.key
+*.pem
